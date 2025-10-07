@@ -26,13 +26,13 @@ These files are located at `src/main/resources`.
 | File                    | Description                              | Additional information                                                                                                |
 | ----------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | `fabric.mod.json`       | Contains metadata about your mod.        | [wiki:fabric_mod_json_spec](https://fabricmc.net/wiki/documentation:fabric_mod_json_spec)                             |
-| `modid.mixins.json`     | Contains a list of all your mixin files. | [wiki:mixin_registration](https://fabricmc.net/wiki/tutorial:mixin_registration)                                      |
-| `assets/modid/icon.png` | The icon of your mod.                    | [wiki:fabric_mod_json_spec#icon](https://fabricmc.net/wiki/documentation:fabric_mod_json_spec?s[]=icon#custom_fields) |
+| `tasmod.mixins.json`     | Contains a list of all your mixin files. | [wiki:mixin_registration](https://fabricmc.net/wiki/tutorial:mixin_registration)                                      |
+| `assets/tasmod/icon.png` | The icon of your mod.                    | [wiki:fabric_mod_json_spec#icon](https://fabricmc.net/wiki/documentation:fabric_mod_json_spec?s[]=icon#custom_fields) |
 
 
 ### Creating your mod
 
-First of you must replace all occurrences of `modid` with the id of your mod.
+First of you must replace all occurrences of `tasmod` with the id of your mod.
 
 If your mod doesn't use mixins you can safely remove the mixin entry in your `fabric.mod.json` as well as delete any `*.mixin.json` files.
 
