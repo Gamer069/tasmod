@@ -1,4 +1,8 @@
 {
     "menu.tasmod.tas": "TAS",
-    "menu.tasmod.create_tas": "Create new TAS"
+    "menu.tasmod.create_tas": "Create new",
+    "menu.tasmod.select_tas": "Select",
+    "menu.tasmod.rename_tas": "Rename",
+    "menu.tasmod.delete_tas": "Delete",
+    "menu.tasmod.recreate_tas": "Recreate"
 }
